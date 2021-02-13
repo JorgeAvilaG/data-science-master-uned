@@ -1,2 +1,4 @@
 # data-science-master-uned
- Task and project from the data science master at UNED
+Tasks and projects from the data science master at UNED.
+
+The code is mainly in English but the texts are in Spanish.
