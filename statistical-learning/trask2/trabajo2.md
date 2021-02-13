@@ -68,7 +68,7 @@ Vemos que obtenemos el mismo valor 0.725.
 
 A continuación vemos la curva *roc*:
 
-![Modelado%20estadi%CC%81stico%20de%20datos%20Pra%CC%81ctica%202%20eaa1a71da8e247e193e2bd81376954cf/ej1_roc_ROCit.png](Modelado%20estadi%CC%81stico%20de%20datos%20Pra%CC%81ctica%202%20eaa1a71da8e247e193e2bd81376954cf/ej1_roc_ROCit.png)
+![images/ej1_roc_ROCit.png](images/ej1_roc_ROCit.png)
 
 Curva *roc* obtenida usando la librería *ROCit*
 
@@ -158,7 +158,7 @@ plot(exp.new$exp, preds ,type = "l", col = "red", lwd=3, ylim=c(0,1))
 lines(exp,rta, type = "p", col='blue', pch = 19)
 ```
 
-![Modelado%20estadi%CC%81stico%20de%20datos%20Pra%CC%81ctica%202%20eaa1a71da8e247e193e2bd81376954cf/ej2_todo.png](Modelado%20estadi%CC%81stico%20de%20datos%20Pra%CC%81ctica%202%20eaa1a71da8e247e193e2bd81376954cf/ej2_todo.png)
+![images/ej2_todo.png](images/ej2_todo.png)
 
 En azul los datos de entrenamiento y en rojo la función de predicciones de la regresión logística
 
@@ -175,7 +175,7 @@ coords(roc_obj, "best", transpose = FALSE , best.method="youden")
 plot(roc_obj, print.auc=TRUE, print.thres = "best")
 ```
 
-![Modelado%20estadi%CC%81stico%20de%20datos%20Pra%CC%81ctica%202%20eaa1a71da8e247e193e2bd81376954cf/ej2_roc.png](Modelado%20estadi%CC%81stico%20de%20datos%20Pra%CC%81ctica%202%20eaa1a71da8e247e193e2bd81376954cf/ej2_roc.png)
+![images/ej2_roc.png](images/ej2_roc.png)
 
 Curva roc para el modelo de regresión logística
 
@@ -238,7 +238,7 @@ Number of Fisher Scoring iterations: 4
 
 Como principal diferencia vemos que ahora el coeficiente de la variable explicativa si es estadísticamente diferente de cero con un valor de 0.004706 y un p-valor de 0.00968 <0.01.
 
-![Modelado%20estadi%CC%81stico%20de%20datos%20Pra%CC%81ctica%202%20eaa1a71da8e247e193e2bd81376954cf/ej2_impr.png](Modelado%20estadi%CC%81stico%20de%20datos%20Pra%CC%81ctica%202%20eaa1a71da8e247e193e2bd81376954cf/ej2_impr.png)
+![images/ej2_impr.png](images/ej2_impr.png)
 
 En azul los datos de entrenamiento y en rojo la función de predicciones de la regresión logística
 
@@ -255,7 +255,7 @@ coords(roc_obj, "best", transpose = FALSE , best.method="youden")
 plot(roc_obj, print.auc=TRUE, print.thres = "best")
 ```
 
-![Modelado%20estadi%CC%81stico%20de%20datos%20Pra%CC%81ctica%202%20eaa1a71da8e247e193e2bd81376954cf/ej2_roc_2.png](Modelado%20estadi%CC%81stico%20de%20datos%20Pra%CC%81ctica%202%20eaa1a71da8e247e193e2bd81376954cf/ej2_roc_2.png)
+![images/ej2_roc_2.png](images/ej2_roc_2.png)
 
 Curva roc para el modelo de regresión logística
 
@@ -1033,7 +1033,7 @@ plot(roc_obj, print.auc=TRUE, print.thres = "best")
 
 Nos devuelve la siguiente gráfica:
 
-![Modelado%20estadi%CC%81stico%20de%20datos%20Pra%CC%81ctica%202%20eaa1a71da8e247e193e2bd81376954cf/ej6_roc.png](Modelado%20estadi%CC%81stico%20de%20datos%20Pra%CC%81ctica%202%20eaa1a71da8e247e193e2bd81376954cf/ej6_roc.png)
+![images/ej6_roc.png](images/ej6_roc.png)
 
 En la imagen podemos ver la curva *roc* del modelo final. Tiene un *auc* de 0.860 lo cual nos indica que es un buen modelo, que funciona mejor que un clasificador aleatorio (auc de 0.5).
 
